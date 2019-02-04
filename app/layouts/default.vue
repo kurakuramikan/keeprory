@@ -1,9 +1,7 @@
 <template>
   <div>
     <the-header/>
-    <div class="wrapper">
-      <nuxt class="container"/>
-    </div>
+    <nuxt class="container"/>
   </div>
 </template>
 
@@ -16,3 +14,10 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.container {
+  min-height: 100vh;
+  background-color: #fafaef;
+}
+</style>
