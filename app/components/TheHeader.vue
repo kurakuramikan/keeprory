@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .global-header {
   width: 100%;
   padding: 0 32px;
