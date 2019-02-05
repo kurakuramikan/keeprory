@@ -1,7 +1,6 @@
 <template>
   <div class="accordion">
     <div class="accordion__header" @click="accordionToggle()">{{ title }}</div>
-
     <transition
       name="slide"
       @before-enter="beforeEnter"
@@ -92,6 +91,7 @@ export default {
     opacity: 1;
   }
 }
+
 @keyframes slideOut {
   0% {
     opacity: 1;
