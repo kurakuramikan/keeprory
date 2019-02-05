@@ -8,7 +8,7 @@
 .global-header {
   width: 100%;
   padding: 0 32px;
-  box-shadow: 0px 8px 8px -8px #cccccc;
+  box-shadow: 0px 8px 8px -8px #ccc;
 }
 
 .global-header__title {
